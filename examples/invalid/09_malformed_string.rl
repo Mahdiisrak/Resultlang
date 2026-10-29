@@ -1,0 +1,2 @@
+name = "Mahir;
+show(name);

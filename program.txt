@@ -1,0 +1,25 @@
+
+student "Rafsan";
+DBMS = 10;
+Compiler = 30;
+MMA = 70;
+
+total = DBMS + Compiler + MMA;
+average = total / 3;
+
+if (average >= 80)
+  grade = "A+";
+else if(average>=70)
+ grade="A";
+else if(average>=60)
+ grade="A-";
+else if(average>=50)
+ grade="B";
+else if(average>=40)
+  grade="C";   
+else if(average>=33)
+ grade="D";
+else 
+  grade = "Fail";
+
+show(grade);
